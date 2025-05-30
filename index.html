@@ -6,7 +6,7 @@
     <title>It's me Ajay</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="main.js"></script>
+   
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
 </script>
@@ -23,31 +23,31 @@
 
     <nav>
         <a href="#" class="logo">It's  &nbsp;Ajay</a>
-        <div class="toggle"></div>
+        <div class="toggle" onclick="toggleMenu();"></div>
 
 
         <ul class="menu">
 
-            <li><a href="#" >Home</a></li>
-            <li><a href="#" >About</a></li>
-            <li><a href="#" >Skills</a></li>
-            <li><a href="#" >Project</a></li>
-            <li><a href="#" >Contact</a></li>
+            <li><a href="#home "onclick="toggleMenu()" >Home</a></li>
+            <li><a href="#about"onclick="toggleMenu()" >About</a></li>
+            <li><a href="#skills"onclick="toggleMenu()" >Skills</a></li>
+            <li><a href="#projects"onclick="toggleMenu()" >Project</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
 
         </ul>
     </nav>
     <section id="home">
      <div class="home-text">
-        <h1>Hy, I,m <br><span>Ajay V </span><br>Aspiring web developer </h1>
+        <h1>Hy, I'm <br><span>Ajay V </span><br>Aspiring developer </h1>
         <a href="#">Hire Me</a>
      </div>
-     <div class="home-">
+     <div class="homeimg">
         <img src="ajay.png" alt="">
      </div>
      <div class="social">
-        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
-        <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
-      <a href="#"> <i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/___a_j_y_____/"> <i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/ajay-v-1b8765282/"> <i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/AjayVelanchery"> <i class="fa-brands fa-github"></i></a>
 
 
      </div>
@@ -145,6 +145,7 @@
     </form>
   </div>
     </section>
-  
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
 </body>
 </html>
