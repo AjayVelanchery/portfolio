@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's me Ajay</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="main.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "8sjjlCiORAHREaWsB",
+      });
+   })();
+</script>
+
+</head>
+<body>
+
+    <nav>
+        <a href="#" class="logo">It's  &nbsp;Ajay</a>
+        <div class="toggle"></div>
+
+
+        <ul class="menu">
+
+            <li><a href="#" >Home</a></li>
+            <li><a href="#" >About</a></li>
+            <li><a href="#" >Skills</a></li>
+            <li><a href="#" >Project</a></li>
+            <li><a href="#" >Contact</a></li>
+
+        </ul>
+    </nav>
+    <section id="home">
+     <div class="home-text">
+        <h1>Hy, I,m <br><span>Ajay V </span><br>Aspiring web developer </h1>
+        <a href="#">Hire Me</a>
+     </div>
+     <div class="home-">
+        <img src="ajay.png" alt="">
+     </div>
+     <div class="social">
+        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+        <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"> <i class="fa-brands fa-github"></i></a>
+
+
+     </div>
+
+    </section>
+
+    <section id="about">
+        <div class="heading">
+
+            <h2>About</h2>
+            <p>My Introduction</p>
+        </div>
+
+        <div class="about-content">
+            <div class="about-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4YBDSnvsBKo04ypCltAkABCH5m94RsTgDLw&s" alt="">
+            </div>
+            <div class="about-text">
+                 <h1>I'm Ajay</h1>
+                 <p>Hi, I'm Ajay. I'm passionate about learning and building new things. I enjoy working on creative projects and always try to improve my skills. Whether it's designing, coding, or solving problems, I love bringing ideas to life.
+                    Thanks for visiting my portfolio!</p>
+                 <a href="#">Download Cv</a>
+                </div>
+
+
+        </div>
+
+
+        
+    </section>
+    <section id="skills">
+        <div class="heading">
+        <h2>Skills</h2><br>
+    </div>
+     <div class="skill">
+    
+         
+        <li>
+            <h3><span>HTML</span><span>80%</span></h3>
+
+            <span class="bar"><span class="html"></span></span>
+        </li>       
+        
+        <li>
+            <h3><span>CSS</span><span>80%</span></h3>
+            <span class="bar"><span class="css"></span></span>
+        </li>       
+        
+        <li>
+            <h3><span>Javascript</span><span>70%</span></h3>
+            <span class="bar"><span class="javascript"></span></span>
+        </li>       
+        
+       
+        
+    </div>
+    </section>
+
+    <section id="projects">
+ <div class="heading">
+    <h2>Projects</h2>
+ </div>
+ <div class="project-content">
+    <div class="box">
+        <a href="https://ajayvelanchery.github.io/w3schoolnavbar/"> <img src="w3schools.png" alt=""></a>
+         <h1>W3schools navbar</h1>
+    </div>
+    <div class="box">
+        <a href="https://ajayvelanchery.github.io/easemytrip/"><img src="easemytrip.png" alt=""></a>
+        <h1>Easemytrip  clone</h1>
+   </div>
+   <div class="box">
+    <img src="portfolio.png" alt="">
+    <h1>Portfolio website</h1>
+</div>
+ 
+</div>
+    </section>
+
+
+    <section id="contact">
+     <div class="heading-color">
+        <h2>contact</h2>
+       </div>
+    
+
+  <div class="contact-form">
+   
+    <form action="">
+
+        <input type="text" placeholder="Name" id="name">
+        <input type="email" placeholder=" your E-mail" id="email">
+        <textarea name=""  cols="30"rows="10"placeholder="Type your toughts"id="message"></textarea>
+      <input type="button" value="send" class="contact-button" onclick="sendMail()">
+    </form>
+  </div>
+    </section>
+  
+</body>
+</html>
