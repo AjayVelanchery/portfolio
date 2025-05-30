@@ -509,7 +509,11 @@ ul li a:hover{
         width: 30px;
         height: 30px;
         background-size: 20px;
+        
     
+    }
+    .heading-color{
+    margin-right: 50px;
     }
    
 }
